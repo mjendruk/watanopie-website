@@ -1,0 +1,34 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.collection == "authors" %}
+        Autorenprofil von {{ page.artist }}
+    {% else %}
+      {{ site.title | escape }}
+    {% endif %}
+  </title>
+  <meta name="author" content="{{ site.author | escape }}">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_light_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_lightitalic_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_regular_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_italic_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_bold_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="{{ "/assets/fonts/merlo_bolditalic_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  {% comment %}
+    <!-- Currently unused font weights -->
+    <link rel="stylesheet" href="{{ "/assets/fonts/merlo_medium_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="{{ "/assets/fonts/merlo_mediumitalic_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="{{ "/assets/fonts/merlo_thin_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="{{ "/assets/fonts/merlo_thinitalic_macroman/stylesheet.css" | relative_url }}" type="text/css" charset="utf-8" />
+  {% endcomment %}
+
+  <link href="{{ "/assets/main.css" | relative_url }}" rel="stylesheet" type="text/css" charset="utf-8">
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+</head>

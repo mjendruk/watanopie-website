@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import "base";
+@import "utilities";
+@import "drop_shadow";
+@import "components";
+@import "styling";
+@import "tables";
+
+.container { max-width: $container-width; } 
+
+@media #{$breakpoint-lg} {
+
+  .container { max-width: $container-width-lg; }  
+
+}
+
+.border-sdg-blue {
+  border-color: $sdg-blue;
+}
+
+.bg-sdg-blue {
+  background-color: $sdg-blue;
+}
+
+.sdg-blue {
+  color: $sdg-blue;
+}
+
+.border-sdg-red {
+  border-color: $sdg-red;
+}
+
+.bg-sdg-red {
+  background-color: $sdg-red;
+}
+
+.sdg-red {
+  color: $sdg-red;
+}

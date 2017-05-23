@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+$container-width: 48rem;
+$container-width-lg: 56rem;
+
+
+/* typography */
+
+$base-font-size: 115% !default;
+$line-height: 1.5;
+
+$caps-letter-spacing: 0.1em;
+
+$h1: 2.4rem;
+
+$font-family: "merlo", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+
+/* colors */
+
+$sdg-blue: #4d8aa9;
+$sdg-red: #c2116c;
+
+$watanopie-bg-blue: #30566b;
+$watanopie-blue: #63c4d8;
+
+$background-color: #F5F5F5;
+
+$dark-gray: #333 !default;
+$mid-gray: #777 !default;
+$light-gray: #ccc !default;
+$lighter-gray: #eee !default;
+
+/* breakpoints */
+
+$breakpoint-sm: '(min-width: 36em)';
+$breakpoint-md: '(min-width: 48em)';
+$breakpoint-lg: '(min-width: 96em)';
+
+$breakpoint-sm-md: '(min-width: 36em) and (max-width: 48em)' !default;
+$breakpoint-md-lg: '(min-width: 48em) and (max-width: 96em)' !default;

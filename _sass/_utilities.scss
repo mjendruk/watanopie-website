@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/* typography */
+
+.h1 {
+  font-weight: 300;
+  line-height: $line-height-2;
+}
+
+.h2 {
+  font-weight: normal;
+}
+
+.h3 {
+  font-weight: normal;
+}
+
+.weight-100 { font-weight: 100; }
+.weight-200 { font-weight: 200; }
+.weight-300 { font-weight: 300; }
+.weight-400 { font-weight: 400; }
+.weight-500 { font-weight: 500; }
+.weight-600 { font-weight: 600; }
+.weight-700 { font-weight: 700; }
+
+.lowercase { text-transform: lowercase; }
+
+@media #{$breakpoint-sm} {
+
+  .sm-center { text-align: center; }
+
+  .sm-right-align { text-align: right; }
+
+}
+
+@media #{$breakpoint-md} {
+
+  .md-center { text-align: center; }
+
+  .md-right-align { text-align: right; }
+
+}
+
+/* border */
+
+@media #{$breakpoint-sm} {
+
+  .sm-rounded { border-radius: $border-radius; }
+
+  .sm-rounded-top    { border-radius: $border-radius $border-radius 0 0 }
+
+  .sm-rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
+
+  .sm-rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
+
+  .sm-rounded-left   { border-radius: $border-radius 0 0 $border-radius }
+
+}
+
+@media #{$breakpoint-md} {
+
+  .md-rounded { border-radius: $border-radius; }
+
+  .md-rounded-top    { border-radius: $border-radius $border-radius 0 0 }
+
+  .md-rounded-right  { border-radius: 0 $border-radius $border-radius 0 }
+
+  .md-rounded-bottom { border-radius: 0 0 $border-radius $border-radius }
+
+  .md-rounded-left   { border-radius: $border-radius 0 0 $border-radius }
+
+}
+
+/* display property */
+
+@media #{$breakpoint-sm} {
+
+  .sm-block { display: block; }
+
+}
+
+@media #{$breakpoint-md} {
+
+  .md-block { display: block; }
+
+}

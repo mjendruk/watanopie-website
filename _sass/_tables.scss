@@ -1,0 +1,28 @@
+/*
+  Table styles copied from Bootstrap
+  Copyright (c) 2013 Twitter, Inc
+*/
+
+.table {
+  max-width: 100%;
+  margin-bottom: 1.5;
+
+  border-collapse: collapse;
+  
+  // Cells
+  > thead,
+  > tbody,
+  > tfoot {
+    > tr {
+      > th,
+      > td {
+        padding: $space-1;
+        line-height: 1.2;
+        vertical-align: top;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-color: $dark-gray;
+      }
+    }
+  }
+}

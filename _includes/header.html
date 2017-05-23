@@ -1,0 +1,10 @@
+<header class="h3 clearfix mxn1 sm-mt3 sm-mb2 mt2 mb1">
+  {% if page.collection == "authors" %}
+  <div class="col px2">
+    <a href="{{ page.title | prepend: '/#author_' | relative_url }}" class="nav-link">zurück</a>
+  </div>
+  {% endif %}
+  <div class="col-right px2">
+    <a href="http://www.solidarigee.de" class="nav-link">zur hauptseite</a>
+  </div>
+</header>

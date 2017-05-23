@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+html, body {
+  height: auto;
+  min-height: 100%;
+}
+
+body {
+  font-size: 100%;
+  margin: 0 !important;
+
+          box-sizing: border-box;
+     -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+figure {
+  margin: 0;
+}
+
+p { 
+  margin-top: 0;
+}

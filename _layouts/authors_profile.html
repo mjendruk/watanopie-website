@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+<div class="clearfix mxn2">
+
+  {% if page.image %}
+  <div class="col md-col-7 sm-col-8 col-12 px2 sm-mb0 mb3">
+  {% else %}
+  <div class="col md-col-7 col-12 mx-auto px2 sm-mb0 mb3">
+  {% endif %}
+    <div class="md-p3 p2 card">
+
+      <nav class="mb2">
+        {% if page.previous %}
+        <a href="{{ page.previous.url | relative_url }}" class="nav-link">vorheriges</a>&nbsp;
+        {% endif %}
+        {% if page.next %}
+        <a href="{{ page.next.url | relative_url }}" class="nav-link">nächstes</a>
+        {% endif %}
+      </nav>
+
+      <header>
+        {% if page._title %}
+          <h1 class="h1 lowercase mt0 mb0">{{ page.artist }}</h1>
+          <h2 class="h2 lowercase mt0 mb2">„{{ page._title }}“</h2>
+        {% else %}
+          <h1 class="h1 lowercase mt0 mb2">{{ page.artist }}</h1>
+        {% endif %}
+      </header>
+
+      {{ content }}
+
+      <h3 class="h3 weight-400 lowercase mb1">Details</h3>
+
+      {% if page.sold %}
+      <p class=""><em>Das Werk hat bereits ein neues Zuhause.<em></p>
+      {% endif %}
+
+      <table class="table lowercase" style="table-layout: fixed;">
+        <col style="width: 4em;">
+        <col>
+        <tbody>
+          {% if page.technique %}
+          <tr>
+            <td><em>Technik</em></td>
+            <td>{{ page.technique }}</td>
+          </tr>
+          {% endif %}
+          {% if page.size %}
+          <tr>
+            <td><em>Maße</em></td>
+            <td>{{ page.size }}</td>
+          </tr>
+          {% endif %}
+          {% if page.year %}
+          <tr>
+            <td><em>Jahr</em></td>
+            <td>{{ page.year }}</td>
+          </tr>
+          {% endif %}
+          {% if page.value %}
+          <tr>
+            <td><em>Wert</em></td>
+            <td>{{ page.value }},– €</td>
+          </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  {% if page.image %}
+  <div class="col md-col-5 sm-col-4 col-12 px2">
+    <a href="#modal" class="block relative clickable-img">
+      <img src="{{ page.image | prepend: "assets/images/" | relative_url }}" 
+           alt="Kunstwerk von {{ page.artist }}"
+           class="fit card">
+      <div class="absolute left-0 top-0 m1 bg-lighten-4 rounded">
+        <img src="{{ "assets/icons/ic_zoom_out_map_black_36px.svg" | relative_url }}" alt="zoom_loupe" class="block">
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
+</div>
+
+{% if page.image %}
+<div class="fixed left-0 top-0 bottom-0 right-0 p2 center modal" id="modal">
+  <figure class="inline-block max-width-3 modal-content ">
+    <figcaption class="lowercase py1 px2 left-align">
+      <a href="#" class="right nav-link">Schließen</a>
+      {{ page.artist | prepend: "Künstler: " }}
+    </figcaption>
+    <img src="{{ page.image | prepend: "assets/images/" | relative_url }}" 
+         alt="Kunstwerk von {{ page.artist }}"
+         class="block rounded-bottom fit">
+  </figure>
+</div>
+{% endif %}

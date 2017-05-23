@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+.nav-link {
+  color: $mid-gray;
+}
+
+.nav-link:hover {
+  color: $watanopie-bg-blue;
+}
+
+.nav-link:active {
+  color: lighten($watanopie-bg-blue, 10%);
+}
+
+.clickable-img {
+  opacity: 1.0;
+  border: 0;
+}
+
+.clickable-img:hover {
+  opacity: 0.8;
+}
+
+.clickable-img:active {
+  opacity: 0.7;
+}
+
+.card {
+  background-color: $white;
+  border-radius: $border-radius;
+
+  // .mdl-shadow--4dp
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2)
+}
+
+.header {
+    background-color: $watanopie-bg-blue;
+    color: $watanopie-blue;
+}
+
+.map-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-container > iframe {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border:0;
+}
+
+.modal {
+  display: none;
+  overflow: scroll;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal:target {
+  display: block;
+}
+
+.modal-content {
+  background-color: $white;
+  border-radius: $border-radius;
+
+  // .mdl-shadow--16dp
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, .14), 0 6px 30px 5px rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2)
+}
+
+.ratio-2-3 {
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+}
+.ratio-2-3:after {
+  padding-top: 150%;
+  /* 2:3 ratio */
+  display: block;
+  content: '';
+}
+
+.ratio-2-3-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.no-link-style {
+  text-decoration: none;
+  transition: none;
+  border: 0;
+  color: inherit;
+}
