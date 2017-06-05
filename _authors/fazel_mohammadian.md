@@ -2,12 +2,8 @@
 name: Fazel Mohammadian
 country: Afghanistan
 city: Ghor
-hobbies:
-    - Musik machen
-    - Fitness
 image: fazel.jpg
 tweets: [867319063013470208]
-#sold: true
 ---
 
 Um mich selbst in Deutschland zu verwirklichen, muss ich natürlich deutsch lernen, denn meine Zukunft ist in Deutschland. In Deutschland kann ich ich selbst sein. Niemand weiß, wo ich in 10 Jahren bin oder was die Zukunft für mich bereit hält. Jetzt möchte ich gerne in Berlin als Krankenpfleger arbeiten. Ich will weiterhin meine Freunde treffen, Gitarre spielen und ins Fitnessstudio gehen. Ich wünsche mir eine richtige Familie hier. Wir wohnen dann zusammen, essen zusammen und leben zusammen. Ich will eine Frau heiraten, und ich will mit ihr Kinder haben. Und meine Kinder haben einen gestreiften Hasen.
