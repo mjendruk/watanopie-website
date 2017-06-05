@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # url: ""
 # baseurl: "/solidarigee-kunstevent" # the subpath of your site, e.g. /blog
 # url: "http://max.jendruk.com/solidarigee-kunstevent" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/_watanopie" # the subpath of your site, e.g. /blog
+baseurl: "/watanopie_4868e9f1" # the subpath of your site, e.g. /blog
 url: "http://www.solidarigee.de" # the base hostname & protocol for your site, e.g. http://example.com
 lang: de-DE
 
@@ -42,6 +42,12 @@ defaults:
 autoprefixer:
   only_production: true
 
+hyphenate_filter:
+  language: de
+  left: 4
+  right: 3
+  # hyphen: "&shy;"
+
 gems:
   - jekyll-autoprefixer
 
@@ -50,6 +56,7 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
-  - kunstevent.sublime-project
-  - kunstevent.sublime-workspace
+  - watanopie.sublime-project
+  - watanopie.sublime-workspace
   - ToDo.md
+  - Zugang.jpg

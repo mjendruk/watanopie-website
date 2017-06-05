@@ -18,6 +18,8 @@ gem "jekyll", "3.3.1"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-autoprefixer"
+  gem "jekyll-hyphenate_filter"
+  gem 'jekyll-twitter-plugin'
 end
 
 gem "html-proofer"

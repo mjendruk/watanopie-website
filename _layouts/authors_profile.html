@@ -2,42 +2,17 @@
 layout: default
 ---
 
-<div class="clearfix mxn2">
-
-  {% if page.image %}
-  <div class="col md-col-7 sm-col-8 col-12 px2 sm-mb0 mb3">
-  {% else %}
-  <div class="col md-col-7 col-12 mx-auto px2 sm-mb0 mb3">
-  {% endif %}
-    <div class="md-p3 p2 card">
-
-      <nav class="mb2">
+  {% comment %}
+      <!-- <nav class="mb2">
         {% if page.previous %}
         <a href="{{ page.previous.url | relative_url }}" class="nav-link">vorheriges</a>&nbsp;
         {% endif %}
         {% if page.next %}
         <a href="{{ page.next.url | relative_url }}" class="nav-link">nächstes</a>
         {% endif %}
-      </nav>
+      </nav> -->
 
-      <header>
-        {% if page._title %}
-          <h1 class="h1 lowercase mt0 mb0">{{ page.artist }}</h1>
-          <h2 class="h2 lowercase mt0 mb2">„{{ page._title }}“</h2>
-        {% else %}
-          <h1 class="h1 lowercase mt0 mb2">{{ page.artist }}</h1>
-        {% endif %}
-      </header>
-
-      {{ content }}
-
-      <h3 class="h3 weight-400 lowercase mb1">Details</h3>
-
-      {% if page.sold %}
-      <p class=""><em>Das Werk hat bereits ein neues Zuhause.<em></p>
-      {% endif %}
-
-      <table class="table lowercase" style="table-layout: fixed;">
+<!--       <table class="table lowercase" style="table-layout: fixed;">
         <col style="width: 4em;">
         <col>
         <tbody>
@@ -47,30 +22,12 @@ layout: default
             <td>{{ page.technique }}</td>
           </tr>
           {% endif %}
-          {% if page.size %}
-          <tr>
-            <td><em>Maße</em></td>
-            <td>{{ page.size }}</td>
-          </tr>
-          {% endif %}
-          {% if page.year %}
-          <tr>
-            <td><em>Jahr</em></td>
-            <td>{{ page.year }}</td>
-          </tr>
-          {% endif %}
-          {% if page.value %}
-          <tr>
-            <td><em>Wert</em></td>
-            <td>{{ page.value }},– €</td>
-          </tr>
-          {% endif %}
         </tbody>
-      </table>
-    </div>
+      </table> -->
 
-  </div>
+  {% endcomment %}
 
+  {% comment %}
   {% if page.image %}
   <div class="col md-col-5 sm-col-4 col-12 px2">
     <a href="#modal" class="block relative clickable-img">
@@ -83,9 +40,35 @@ layout: default
     </a>
   </div>
   {% endif %}
+  {% endcomment %}
 
+<div class="card">
+  <header class="header rounded-top">
+    <div class="px2 sm-px3 pt2 pb3 mx-auto text-container">
+      <h1 class="header-main header-author mt0 mb0">{{ page.name }}</h1>
+      <h2 class="header-sub mt0 mb0">aus {{ page.city }}, {{ page.country }}</h2>
+    </div>
+  </header>
+  <div class="py3 px2 sm-px3 mx-auto text-container">
+    <section class="mt3">
+      <img src="{{ page.image | prepend: "assets/images/" | relative_url }}" 
+           alt="Bild von {{ page.name }}"
+           class="fit rounded">
+    </section>
+    <section class="mt3">
+      <article class="mid-gray">
+      {{ content | hyphenate }}
+      </article>
+    </section>
+    <section class="mt3 mid-gray">
+      <h3 class="h3 mt4">Tweets</h3>
+        {% twitter https://twitter.com/solidarigee_ev/status/867319063013470208 %}
+        {% twitter https://twitter.com/solidarigee_ev/status/867319063013470208 %}
+    </section>
+  </div>
 </div>
 
+{% comment %}
 {% if page.image %}
 <div class="fixed left-0 top-0 bottom-0 right-0 p2 center modal" id="modal">
   <figure class="inline-block max-width-3 modal-content ">
@@ -99,3 +82,4 @@ layout: default
   </figure>
 </div>
 {% endif %}
+{% endcomment %}

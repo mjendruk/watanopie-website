@@ -9,6 +9,8 @@
 
 .container { max-width: $container-width; } 
 
+.text-container { max-width: $text-width; }
+
 @media #{$breakpoint-lg} {
 
   .container { max-width: $container-width-lg; }  

@@ -41,8 +41,12 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-autoprefixer (1.0.1)
       autoprefixer-rails (~> 6.3.6)
+    jekyll-hyphenate_filter (0.0.2)
+      nokogiri (~> 1.6)
+      text-hyphen (~> 1.4)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-twitter-plugin (2.0.0)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.1)
@@ -65,6 +69,7 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    text-hyphen (1.4.1)
     thread_safe (0.3.5)
     typhoeus (0.8.0)
       ethon (>= 0.8.0)
@@ -79,6 +84,8 @@ DEPENDENCIES
   html-proofer
   jekyll (= 3.3.1)
   jekyll-autoprefixer
+  jekyll-hyphenate_filter
+  jekyll-twitter-plugin
 
 RUBY VERSION
    ruby 2.4.0p-1
