@@ -15,3 +15,9 @@ Ich will lernen, besser Gitarre zu spielen. Ich will Konzerte spielen und singen
 Ich möchte gerne in einer schönen Wohnung wohnen. Ich wünsche mir Privatsphäre. Und ich möchte nette Nachbarn haben. Ich will Nachbarn, die nicht unfreundlich sind, egal welche Sprache sie sprechen, und egal welche Sprache ich spreche, oder wie ich aussehe. Ich wünsche mir eine Gemeinschaft, in der ich lebe. Wo man ab und zu mal was zusammen macht. Wir könnten zum Beispiel gemeinsam kochen, oder unsere Kinder spielen zusammen. Ich möchte sehr sehr gerne mit meiner Familie leben, immer, aber meine Familie ist leider nicht hier. Ich möchte nicht mehr einsam sein, so wie jetzt.
 
 Ich hätte gerne eine türkische Frau, weil ich die Sprache schön finde. Aber ich bin da flexibel. Hauptsache ich habe drei tolle Kinder. Ich will sehr viele Freunde aus aller Welt haben, und liebe Arbeitskollegen, mit denen ich auch eine Art Freundschaft habe. Wenn es mal einen Konflikt gibt, werde ich einen Kompromiss finden. Wenn das nicht klappt, versuche ich es wieder und wieder, bis es klappt. Wenn das alles klappt, dann ist mein Alltag einfach nur super. Ich arbeite dann fünf Tage die Woche, und abends verbringe ich Zeit mit meinen Lieben. Ich kann alle Unterschiede tolerieren, solange die Menschen nett zu mir sind. Ist man zu mir nett, bin ich es immer auch. Das kommt ja immer von zwei Seiten.
+
+
+### Tweets
+
+{% twitter https://twitter.com/solidarigee_ev/status/862318545778212864 %}
+{% twitter https://twitter.com/solidarigee_ev/status/867319063013470208 %}

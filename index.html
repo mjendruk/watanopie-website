@@ -68,30 +68,25 @@ layout: default
     <div class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1">
     <div class="clearfix md-mxn2 mid-gray">
       <div class="md-block md-col md-col-6 md-px2 my0">
-        <p>›Watan‹ ist das arabische, persische und türkische Wort für ›Heimat‹. Der Suffix ›-topie‹ leitet sich aus dem altgrie&shy;chischen ›tópos‹ ab und bedeutet ›Ort‹. Mit der Kampagne ›#watanopie – Heimat, ein Ort der Utopie?‹ sprechen junge Berliner erstmalig von einer ›Utopie der Heimat‹ und treten ein für Dialog und gesellschaftliche Partizipation. Mit dieser Kampagne fordern wir Chancengleichheit für Jugendliche mit und ohne Flucht- und Migrationserfahrung.</p>
-
-        <p>Doch was steckt überhaupt hinter der Idee von #watanopie? Was bedeutet ›die Utopie der Heimat‹? Jugendliche mit unter&shy;schiedlichsten Geschichten, aus unter&shy;schiedlichsten Bereichen, arbeiten an einer Vision: Gemeinsam schaffen wir einen Ort der Teilhabe, einen Ort der Kreativität und Chancen&shy;gleichheit, hier in Berlin und überall. Ein Ort, an dem jede Kultur und jede Idee ihren Raum bekommt, Selbst&shy;verwirklichung real und solidarisches Zusammenleben garantiert ist. Eine Utopie der Heimat muss sich wieder- und neu erfinden, um eine ›Utopie der Heimat‹ für uns alle zu werden.</p>
+        {{ site.data.campaign_intro.first_column | markdownify | hyphenate }}
       </div>
       <div class="md-block md-col md-col-6 md-px2 my0">
-        <p>Mit der Kampagne ›#watanopie – Heimat, ein Ort der Utopie?‹ wird der bisher noch passive Raum für gesell&shy;schaftliche Partizipation und Mitgestaltung für Jugendliche mit Fluchterfahrung befördert und mittels kritischer Medien&shy;nutzung gestreut. Die zur Kampagnenvorbereitung durch&shy;geführten Workshops befassen sich deshalb aktiv und ebenso kritisch mit den Konzepten Heimat, Utopie, Dystopie, Demo&shy;kratie und Medien. Erfahrungswerte, Träume und Ziele werden von einzelnen Autoren vorgestellt und reflektieren die in den Workshops erarbeiteten Diskussionen. Die Autorenprofile, Fotos und #watanopie-Texte werden wöchentlich hier auf unserem Blog veröffentlicht. Seid gespannt!</p>
-
-        <p>Unterstütze, gemeinsam mit uns, die Förderung nach politischer und gesellschaftlicher Partizipation junger Geflüchteter! Lasst uns gemeinsam an der Utopie einer Heimat arbeiten! Folge uns auf <a href="https://twitter.com/solidarigee_ev">Twitter</a>, <a href="https://www.instagram.com/solidarigee_ev/">Instagram</a> und <a href="https://www.facebook.com/solidarigeeberlin">Facebook</a>. Poste und tweete unter dem Hashtag #watanopie und #heimatist!</p>
+         {{ site.data.campaign_intro.second_column | markdownify | hyphenate }}
       </div>
     </div>
     </div>
   </article>
   <article class="mt3 sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
     <h2 class="h2 lowercase mt0">
-      Weitere Infos zu den Workshops
+      {{ site.data.workshops_info.title }}
     </h2>
     <div class="clearfix md-mxn2 mid-gray">
       <div class="md-block md-col md-col-6 md-px2 my0">
-        <p>Die Kampagne wurde im Rahmen des Workshops ›Heimatschrift‹ erarbeitet, welche SolidariGee in Kooperation mit anderen Bündnispartnern gestaltet. Hauptziel dieser Workshopreihe ›Heimat-Los in Deutschland. Mit Medien entdecken!‹ des Bündnisses <a href="http://www.wassertormedien.de/">Wassertormedien e.V.</a>, <a href="http://www.mgh-wassertor.de/">MGH</a> und SolidariGee e.V. ist die Förderung der Medienkompetenz und die Auseinandersetzung mit der neuen Heimat, Deutschland, von jungen Geflüchteten im Alter von 18 bis 26 Jahren. Bei jeder Workshopsitzung beschäftigen sich die TeilnehmerInnen mit einem neuen Medium, mit dessen Hilfe sich gesellschaftlich und politisch Gehör verschafft werden kann, dazu gehört dieser Blog, Open-Office-Programme, Facebook, Twitter, Instagram usw.</p>
-
+        {{ site.data.workshops_info.first_column | markdownify | hyphenate }}
         <!-- &shy; &nbsp; -->
       </div>
       <div class="md-block md-col md-col-6 md-px2 my0">
-        <p>Das Projekt ›Heimat-Los Deutschland. Mit Medien entdecken!‹ wird unterstützt durch das Programm ›MeinLand – Zeit für Zukunft‹ der Türkischen Gemeinde in Deutschland im Rahmen des Bundesprogramms ›Kultur macht stark. Bündnisse für Bildung‹ des Bundesministerium für Bildung und Forschung."</p>
+        {{ site.data.workshops_info.second_column | markdownify | hyphenate }}
       </div>
     </div>
   </article>
