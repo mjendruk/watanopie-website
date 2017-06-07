@@ -43,10 +43,14 @@ layout: default
   {% endcomment %}
 
 <div class="card">
-  <header class="header pt3 pb3 rounded-top">
-    <div class="px2 sm-px3 mx-auto text-container">
-      <h1 class="header-main header-author mt0 mb0">{{ page.name }}</h1>
+  <header class="px2 sm-px3 py2 sm-py3 header rounded-top">
+    <div class="mx-auto text-container">
+      <h1 class="mt0 mb0 header-main header-author">{{ page.name }}</h1>
       <h2 class="header-sub mt0">aus {{ page.city }}, {{ page.country }}</h2>
+      <section class="mt3 mxn1 flex flex-wrap justify-start mid-gray lowercase">
+        <div class="px1"><strong>Geburtstag</strong>: {{ page.date_of_birth }}</div>
+        <div class="px1"><strong>Berufswunsch</strong>: {{ page.career_aspirations }}</div>
+      </section>
     </div>
   </header>
   <div class="py3 px2 sm-px3 mx-auto text-container">

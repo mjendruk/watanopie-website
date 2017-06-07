@@ -1,7 +1,9 @@
 ---
 name: Hussain ›Nachname‹
 country: Irak
-city: Baghdad
+city: Bagdad
+career_aspirations: KFZ-Mechatroniker
+date_of_birth: 19. Dezember
 image: hussain.jpg
 ---
 

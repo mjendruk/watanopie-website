@@ -3,8 +3,8 @@ layout: default
 ---
 
 <section>
-    <header class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 header card">
-      <h1 class="header-main mt0 my0">
+    <header class="px2 sm-px3 py2 sm-py3 header card">
+      <h1 class="header-main mt0 mb0">
         #watanopie&nbsp;– Heimat, ein&nbsp;Ort der&nbsp;Utopie?
       </h1>
       <h2 class="header-sub mt1">
@@ -83,12 +83,17 @@ layout: default
       </div>
       <div class="md-block md-col md-col-6 md-px2 my0">
         {{ site.data.workshops_info.second_column | markdownify | hyphenate }}
-        <img src="{{ "wassertor_medien.png" | prepend: "assets/images/" | relative_url }}" 
-           alt="Logo von Wassertor Medien"
-           class="col-4">
-        <img src="{{ "mgh.png" | prepend: "assets/images/" | relative_url }}" 
-           alt="Logo von Wassertor Medien"
-           class="col-4">
+        <div class="flex items-center justify-around">
+          <img src="{{ "wassertor_medien.png" | prepend: "assets/images/" | relative_url }}" 
+             alt="Logo von Wassertor Medien"
+             class="col-4">
+          <img src="{{ "mgh.png" | prepend: "assets/images/" | relative_url }}" 
+             alt="Logo von Wassertor Medien"
+             class="col-3">
+          <img src="{{ "kultur_macht_start.png" | prepend: "assets/images/" | relative_url }}" 
+             alt="Logo von Wassertor Medien"
+             class="col-3">
+        </div>
       </div>
     </div>
   </article>

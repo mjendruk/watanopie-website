@@ -2,6 +2,8 @@
 name: Uwais Abd Alfattah
 country: Syrien
 city: Damaskus
+career_aspirations: Ingenieur
+date_of_birth: 15. Dezember
 image: uwais.jpg
 ---
 
