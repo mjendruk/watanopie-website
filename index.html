@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<section>
-    <header class="px2 sm-px3 py2 sm-py3 header card">
+<div class="card">
+    <header class="px2 sm-px3 py2 sm-py3 header ">
       <h1 class="header-main mt0 mb0">
         #watanopie&nbsp;– Heimat, ein&nbsp;Ort der&nbsp;Utopie?
       </h1>
@@ -11,19 +11,21 @@ layout: default
         Eine&nbsp;Kampagne von Solidarigee&nbsp;e.V.
       </h2>
     </header>
-</section>
-
-<section class="mt4">
-  <div class="card p2 sm-p3">
+  <section class="p2 sm-p3">
     <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/6_60Oec-8pg?modestbranding=1&controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+      <iframe width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/HU3iSW6WTo8?modestbranding=1&controls=0&showinfo=0&rel=0" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
     </div>
-  </div>
-</section>
-
-<section class="mt4">
-  <article class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
-    <div class="clearfix md-mxn2 mid-gray">
+  </section>
+  <article class="sm-px3 px2 pt3 sm-pb2 pb1">  
+    <h2 class="h2 lowercase mt0">
+      {{ site.data.campaign_intro.title }}
+    </h2>
+    <div class="clearfix md-mxn2">
       <div class="md-block md-col md-col-6 md-px2 my0">
         {{ site.data.campaign_intro.first_column | markdownify | hyphenate }}
       </div>
@@ -32,7 +34,7 @@ layout: default
       </div>
     </div>
   </article>
-</section>
+</div>
 
 <section class="mt4">
 
@@ -76,7 +78,6 @@ layout: default
     <div class="block flex-auto px2"><hr class="my0"></div>
   </footer>
   {% endcomment %}
-
 </section>
 
 <section class="mt4">
@@ -84,13 +85,14 @@ layout: default
     <h2 class="h2 lowercase mt0">
       {{ site.data.workshops_info.title }}
     </h2>
-    <div class="clearfix md-mxn2 mid-gray">
+    <div class="clearfix md-mxn2">
       <div class="md-block md-col md-col-6 md-px2 my0">
         {{ site.data.workshops_info.first_column | markdownify | hyphenate }}
         <!-- &shy; &nbsp; -->
       </div>
       <div class="md-block md-col md-col-6 md-px2 my0">
         {{ site.data.workshops_info.second_column | markdownify | hyphenate }}
+        
         <div class="flex items-center justify-around">
           <img src="{{ "wassertor_medien.png" | prepend: "assets/images/" | relative_url }}" 
              alt="Logo von Wassertor Medien"

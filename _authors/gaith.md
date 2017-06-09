@@ -1,9 +1,10 @@
 ---
-name: Gaith Al-Assiri
+name: Gaith A.
 country: Syrien
 city: Damaskus
 career_aspirations: Autoingenieur
 date_of_birth: 13. März
+age: 17
 image: gaith.jpg
 ---
 

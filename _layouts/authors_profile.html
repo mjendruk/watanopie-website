@@ -48,8 +48,7 @@ layout: default
       <h1 class="mt0 mb0 header-main header-author">{{ page.name }}</h1>
       <h2 class="header-sub mt0">aus {{ page.city }}, {{ page.country }}</h2>
       <section class="mt3 mxn1 flex flex-wrap justify-start header-profile">
-        <div class="px1">Geburtstag: {{ page.date_of_birth }}</div>
-        <div class="px1">Berufswunsch: {{ page.career_aspirations }}</div>
+        <div class="px1">wird {{ page.age | plus: 1 }} am {{ page.date_of_birth }} und&nbsp;später&nbsp;{{ page.career_aspirations }}</div>
       </section>
     </div>
   </header>
@@ -60,7 +59,7 @@ layout: default
            class="fit rounded">
     </section>
     <section class="mt3">
-      <article class="mid-gray">
+      <article>
       {{ content | hyphenate }}
       </article>
     </section>

@@ -1,9 +1,10 @@
 ---
-name: Uwais Abd Alfattah
+name: Uwais A.
 country: Syrien
 city: Damaskus
 career_aspirations: Ingenieur
 date_of_birth: 15. Dezember
+age: 17
 image: uwais.jpg
 ---
 
@@ -15,5 +16,3 @@ Ich möchte gerne mit vielen Leuten arbeiten, aber lieber alleine leben, ohne vi
 
 Wenn es dennoch mal Konflikte gibt, müssen alle ihre Meinung sagen und am Ende entscheiden alle zusammen.
 In meinem Alltag möchte ich gerne früh aufstehen, so um 7 Uhr. Dann bereite ich mich auf die Arbeit vor, und gehe dort um 8 Uhr hin. Dort bleibe ich dann bis um 14 Uhr und danach gehe ich essen. Dann kann ich nach Hause gehen und chillen. Ich kann mich in Deutschland selbst verwirklichen, denn jeder hat sein eigenes Leben hier und jeder kann aus seinem Leben machen, was er möchte.
-
-
