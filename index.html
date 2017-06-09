@@ -14,7 +14,15 @@ layout: default
 </section>
 
 <section class="mt4">
-  <article class="mt3 sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
+  <div class="card p2 sm-p3">
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6_60Oec-8pg?modestbranding=1&controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="mt4">
+  <article class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
     <div class="clearfix md-mxn2 mid-gray">
       <div class="md-block md-col md-col-6 md-px2 my0">
         {{ site.data.campaign_intro.first_column | markdownify | hyphenate }}
@@ -72,7 +80,7 @@ layout: default
 </section>
 
 <section class="mt4">
-  <article class="mt3 sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
+  <article class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
     <h2 class="h2 lowercase mt0">
       {{ site.data.workshops_info.title }}
     </h2>
@@ -97,33 +105,5 @@ layout: default
       </div>
     </div>
   </article>
-
-  <!-- <div class="clearfix mt3 card">
-    
-    <div class="md-col md-col-6 sm-px3 px2 sm-py3 py2">
-      <h2 class="h1 lowercase mt0 mb2">Ort und Zeit</h2>
-      
-      <p><time datetime="2016-01-25 18:30">
-        25. Januar 2017 / 18:30 Uhr 
-      </time></p>
-      <p>
-        Werkstatt der Kulturen<br>
-        Wissmannstraße 32<br>
-        Berlin Neukölln
-      </p>
-    </div>
-
-    <div class="md-col md-col-6">
-      <div class="map-container">
-        <iframe class="md-rounded-right rounded-bottom"
-          width=800
-          height=600
-          frameborder="0"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD5EWDtTLuCODP_uc_ik5InWXM0sbVO_e8&q=Werkstatt+der+Kulturen">
-        </iframe>
-      </div>
-    </div>
-  </div> -->
-
 </section>
 

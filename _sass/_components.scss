@@ -89,14 +89,14 @@
   margin-bottom: 0;
 }
 
-.map-container {
+.video-container {
   position: relative;
-  padding-bottom: 75%;
+  padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
 
-.map-container > iframe {
+.video-container > iframe {
   position: absolute; 
   top: 0;
   left: 0;
