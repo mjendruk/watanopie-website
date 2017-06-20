@@ -1,5 +1,5 @@
 {% capture player_id %}{{ include.language | slugify | prepend: "player-" }}{% endcapture %}
-<div class="p1">
+<div class="px1 pb1">
   <button class="btn btn-primary caps" onClick="var player = document.getElementById('{{ player_id }}'); if (player.paused) { player.play(); } else { player.pause(); }">
     <i class="fa fa-play" aria-hidden="true"></i>
     {{ include.language }}

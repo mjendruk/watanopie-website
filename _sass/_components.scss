@@ -39,27 +39,36 @@
 }
 
 .header-main {
-  font-weight: 500;
-  font-size: 2.5rem;
-  text-transform: lowercase;
+  font-weight: 600;
+  font-size: 2.1rem;
   line-height: 1.0;
 }
 
+.header-author { font-size: 2.5rem; }
+
 @media #{$breakpoint-sm} {
-  .header-author { font-size: 3rem; }
+  .header-author { 
+    font-size: 3.0rem;
+  }
+}
+
+.header-country { 
+  text-transform: uppercase; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: $h2;
+  line-height: 1.0;
 }
 
 .header-sub {
   font-weight: 500;
   font-size: $h2;
   font-style: italic;
-  text-transform: lowercase;
   line-height: 1.0;
 }
 
 .header-profile {
   font-size: 1.1rem;
-  text-transform: lowercase;
 }
 
 .gallery-item-label {
@@ -86,7 +95,6 @@
 }
 
 .section-header-text {
-  text-transform: lowercase;
   text-align: center;
   display: block;
   margin-top: 0;

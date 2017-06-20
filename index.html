@@ -22,7 +22,7 @@ layout: default
     </div>
   </section>
   <article class="sm-px3 px2 pt3 sm-pb2 pb1">  
-    <h2 class="h2 lowercase mt0">
+    <h2 class="h2 mt0">
       {{ site.data.campaign_intro.title }}
     </h2>
     <div class="clearfix md-mxn2">
@@ -42,11 +42,11 @@ layout: default
     <h1 class="section-header-text">Autorenprofile</h1>
   </header>
 
-  <div class="clearfix mxn2">
+  <div class="clearfix sm-mxn2 mxn1">
 
     {% for author in site.authors %}
     
-    <div class="col md-col-4 col-6 p2 sm-mt0 mt3" id="author_{{ author.title }}">
+    <div class="col md-col-4 col-6 sm-p2 p1" id="author_{{ author.title }}">
       <a href="{{ author.url | relative_url }}" class="no-link-style">
         <div class="relative ratio-2-3 card">
           {% if author.image %}
@@ -54,7 +54,7 @@ layout: default
                style="background-image: url('{{ author.image | prepend: "assets/images/cropped/" | relative_url }}')"></div>
           {% else %}
           <div class="ratio-2-3-content rounded clickable-img bg-black">
-            <p class="h1 mx3 my4 center lowercase white">Foto unterwegs</p>
+            <p class="h1 mx3 my4 center white">Foto unterwegs</p>
           </div>
           {% endif %}
           <div class="absolute bottom-0 right-0 left-0 py1 gallery-item-label center caps bold rounded-bottom">
@@ -72,7 +72,7 @@ layout: default
   <!-- Does not apply anymore. -->
   <footer class="flex items-center my2">
     <div class="block flex-auto px2"><hr class="my0"></div>
-    <div class="lowercase">
+    <div class="">
       <h1 class="h3 center mb0 mt0">Weitere Kunstwerke sind unterwegs.</h1>
     </div>
     <div class="block flex-auto px2"><hr class="my0"></div>
@@ -82,7 +82,7 @@ layout: default
 
 <section class="mt4">
   <div class="sm-px3 px2 sm-pt3 pt2 sm-pb2 pb1 card">  
-    <h2 class="h2 lowercase mt0">
+    <h2 class="h2 mt0">
       {{ site.data.workshops_info.title }}
     </h2>
     <article class="clearfix md-mxn2">
