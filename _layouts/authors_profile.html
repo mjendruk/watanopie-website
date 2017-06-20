@@ -11,20 +11,6 @@ layout: default
         <a href="{{ page.next.url | relative_url }}" class="nav-link">nächstes</a>
         {% endif %}
       </nav> -->
-
-<!--       <table class="table lowercase" style="table-layout: fixed;">
-        <col style="width: 4em;">
-        <col>
-        <tbody>
-          {% if page.technique %}
-          <tr>
-            <td><em>Technik</em></td>
-            <td>{{ page.technique }}</td>
-          </tr>
-          {% endif %}
-        </tbody>
-      </table> -->
-
   {% endcomment %}
 
   {% comment %}
@@ -46,9 +32,21 @@ layout: default
   <header class="px2 sm-px3 py2 sm-py3 header rounded-top">
     <div class="mx-auto text-container">
       <h1 class="mt0 mb0 header-main header-author">{{ page.name }}</h1>
-      <h2 class="header-sub mt0">aus {{ page.city }}, {{ page.country }}</h2>
+      <h2 class="header-sub mt0">aus {{ page.country }}</h2>
       <section class="mt3 mxn1 flex flex-wrap justify-start header-profile">
-        <div class="px1">wird {{ page.age | plus: 1 }} am {{ page.date_of_birth }} und&nbsp;später&nbsp;{{ page.career_aspirations }}</div>
+        {% capture cv_text %}
+        wird 
+        {% if page.age and page.date_of_birth %}
+          {{ page.age | plus: 1 }} am {{ page.date_of_birth }}
+          {% if page.career_aspirations %}
+            und&nbsp;später
+          {% endif %}
+        {% endif %}
+        {% if page.career_aspirations %}
+          {{ page.career_aspirations }}
+        {% endif %}
+        {% endcapture %}
+        <div class="px1">{{ cv_text }}</div>
       </section>
     </div>
   </header>
@@ -63,6 +61,15 @@ layout: default
       {{ content | hyphenate }}
       </article>
     </section>
+    {% if page.audio %}
+    <section class="mt3">
+      <h3>Zum Hören</h3>
+      <div class="mxn1 flex flex-wrap">
+        {% include audio_player.html language="Deutsch" audio_file=page.audio_de %}
+        {% include audio_player.html language=page.language audio_file=page.audio %}
+      </div>
+    </section>
+    {% endif %}
   </div>
 </div>
 

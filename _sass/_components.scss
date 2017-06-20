@@ -62,6 +62,11 @@
   text-transform: lowercase;
 }
 
+.gallery-item-label {
+  background-color: rgba($watanopie-bg-blue, 0.7);
+  color: $watanopie-blue;
+}
+
 .section-header {
   display: flex;
   align-items: center;

@@ -1,7 +1,6 @@
 ---
 name: Gaith A.
 country: Syrien
-city: Damaskus
 career_aspirations: Autoingenieur
 date_of_birth: 13. März
 age: 17

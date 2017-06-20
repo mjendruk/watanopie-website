@@ -1,7 +1,6 @@
 ---
 name: Fazel M.
 country: Afghanistan
-city: Ghor
 career_aspirations: Krankenpfleger
 date_of_birth: 20. Oktober
 age: 17

@@ -1,9 +1,9 @@
 ---
-name: Hussain A.
-country: Irak
-city: Bagdad
+name: Hussain G.
+# Mit Artikel im Dativ
+country: dem Irak
 career_aspirations: KFZ&#8209;Mechatroniker
-date_of_birth: 19. Dezember
+date_of_birth: 11. März
 age: 19
 image: hussain.jpg
 ---
