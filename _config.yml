@@ -37,7 +37,6 @@ defaults:
       type: authors
     values:
       layout: authors_profile
-      sold: false
 
 autoprefixer:
   only_production: true

@@ -5,6 +5,7 @@ career_aspirations: Ingenieur
 date_of_birth: 15. Dezember
 age: 17
 image: uwais.jpg
+order: 8
 ---
 
 Ich möchte hier in Berlin Ingenieur werden. Ich wünsche mir viele Freunde, mit denen ich Fußball spielen gehen kann. Familie möchte ich keine haben, ich habe ja bereits eine Familie in Syrien. Mein Deutsch muss noch viel besser werden, damit ich mich hier selbst verwirklichen kann. Irgendwann möchte ich nach Syrien zurückkehren, um meine Heimat wieder aufzubauen.

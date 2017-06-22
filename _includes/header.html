@@ -3,6 +3,16 @@
   <div class="col px2">
     <a href="{{ page.title | prepend: '/#author_' | relative_url }}" class="nav-link">zurück</a>
   </div>
+  {% if page.previous %}
+  <div class="col px2">
+    <a href="{{ page.previous.url | relative_url }}" class="nav-link">vorheriger</a>
+  </div>
+  {% endif %}
+  {% if page.next %}
+  <div class="col px2">
+    <a href="{{ page.next.url | relative_url }}" class="nav-link">nächster</a>
+  </div>
+  {% endif %}
   {% endif %}
   <div class="col-right px2">
     <a href="http://www.solidarigee.de" class="nav-link">zur Hauptseite</a>

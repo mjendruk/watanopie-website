@@ -6,6 +6,7 @@ career_aspirations: KFZ&#8209;Mechatroniker
 date_of_birth: 11. März
 age: 19
 image: hussain.jpg
+order: 6
 ---
 
 Deutsch zu lernen gehört für mich zur Selbstverwirklichung, weil man das in diesem Land braucht.

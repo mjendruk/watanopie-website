@@ -1,18 +1,6 @@
 ---
 layout: default
 ---
-
-  {% comment %}
-      <!-- <nav class="mb2">
-        {% if page.previous %}
-        <a href="{{ page.previous.url | relative_url }}" class="nav-link">vorheriges</a>&nbsp;
-        {% endif %}
-        {% if page.next %}
-        <a href="{{ page.next.url | relative_url }}" class="nav-link">nächstes</a>
-        {% endif %}
-      </nav> -->
-  {% endcomment %}
-
   {% comment %}
   {% if page.image %}
   <div class="col md-col-5 sm-col-4 col-12 px2">
@@ -32,7 +20,13 @@ layout: default
   <header class="px2 sm-px3 py2 sm-py3 header rounded-top">
     <div class="mx-auto text-container">
       <h1 class="mt0 mb0 header-main header-author">{{ page.name }}</h1>
-      <h2 class="mt1 header-country">aus {{ page.country }}</h2>
+      <h2 class="mt1 header-country">
+        {% if page.leaders %}
+        Workshopleitung
+        {% else %}
+        aus {{ page.country }}
+        {% endif %}
+      </h2>
       {% if page.age and page.date_of_birth and page.career_aspirations %}
       <section class="mt3 header-profile">
         {% capture cv_text %}

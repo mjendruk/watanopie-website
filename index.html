@@ -43,8 +43,8 @@ layout: default
   </header>
 
   <div class="clearfix sm-mxn2 mxn1">
-
-    {% for author in site.authors %}
+    {% assign authors = site.authors %}
+    {% for author in authors %}
     
     <div class="col md-col-4 col-6 sm-p2 p1" id="author_{{ author.title }}">
       <a href="{{ author.url | relative_url }}" class="no-link-style">

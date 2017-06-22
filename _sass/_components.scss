@@ -162,34 +162,3 @@
   border: 0;
   color: inherit;
 }
-
-/**
- * Taken from pixyll.com
- */
-
-.twitter-tweet {
-  padding: 0.8em;
-  border-left: 5px solid #7a7a7a;
-  margin-left: $space-2;
-  margin-right: $space-2;
-}
-
-@media #{$breakpoint-sm} {
-  .twitter-tweet {
-    padding: 1.33em;
-    margin-left: $space-3;
-    margin-right: $space-3;
-  }
-}
-
-.twitter-tweet p {
-  font-style: italic;
-}
-
-.twitter-tweet footer {
-  font-size: .85rem;
-  font-style: normal;
-  background-color: #fff;
-  color: #7a7a7a;
-  border-color: transparent;
-}

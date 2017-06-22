@@ -8,6 +8,7 @@ image: homayoun.jpg
 audio_de: Homayoun - De.mp3
 audio: Homayoun - Dari.mp3
 language: Dari
+order: 5
 ---
 
 Ich möchte in Deutschland Medizin studieren, aber wenn man in Deutschland studieren will, muss man einen Aufenthaltsstatus haben. Deswegen wünsche ich mir eine Aufenthaltserlaubnis. Dann habe ich die Möglichkeit, meine Sprache zu verbessern und mich an der Uni zu bewerben.
