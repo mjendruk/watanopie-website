@@ -23,7 +23,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # url: ""
 # baseurl: "/solidarigee-kunstevent" # the subpath of your site, e.g. /blog
 # url: "http://max.jendruk.com/solidarigee-kunstevent" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/watanopie_4868e9f1" # the subpath of your site, e.g. /blog
+baseurl: "/watanopie" # the subpath of your site, e.g. /blog
 url: "http://www.solidarigee.de" # the base hostname & protocol for your site, e.g. http://example.com
 lang: de-DE
 
@@ -39,7 +39,7 @@ defaults:
       layout: authors_profile
 
 autoprefixer:
-  only_production: true
+  only_production: false
 
 hyphenate_filter:
   language: de

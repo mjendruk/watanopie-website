@@ -57,12 +57,16 @@ layout: default
       {{ content | hyphenate }}
       </article>
     </section>
-    {% if page.audio %}
+    {% if page.audio or page.audio_de %}
     <section class="mt3">
       <h3>Zum Hören</h3>
       <div class="mxn1 flex flex-wrap">
+      {% if page.audio_de %}
         {% include audio_player.html language="Deutsch" audio_file=page.audio_de %}
+      {% endif %}
+      {% if page.audio %}
         {% include audio_player.html language=page.language audio_file=page.audio %}
+      {% endif %}
       </div>
     </section>
     {% endif %}

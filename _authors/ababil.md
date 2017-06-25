@@ -7,7 +7,7 @@ country: Syrien
 image: ababil.jpg
 audio_de: Ababil - De.mp3
 audio: Ababil - Arabic.mp3
-language: Arababisch
+language: Arabisch
 order: 0
 ---
 

@@ -1,8 +1,11 @@
-<footer class="flex flex-wrap mxn1 mt2 mb1">
+<footer class="flex flex-wrap items-baseline mxn1 mt2 mb1">
   <div class="mx2">&copy; 2017 Solidarigee e.V.</div>
-  <div>
-    <a class="mx2 nav-link" href="http://www.solidarigee.de/impressum/">Impressum</a>
-    <a class="mx2 nav-link" href="http://www.solidarigee.de/datenschutz/">Datenschutz</a>
+  <div class="mx1">
+    <a class="mx1 nav-link" href="http://www.solidarigee.de/impressum/">Impressum</a>
+    <a class="mx1 nav-link" href="http://www.solidarigee.de/datenschutz/">Datenschutz</a>
   </div>
   <div class="mx2">zuletzt aktualisiert am {{ site.time | date: "%d.%m.%Y" }}</div>
+  {% if page.collection != "authors" %}
+    <div class="mx2" style="font-size: 0.8rem">Webseite erstellt von <a href="http://max.jendruk.com" class="nav-link">Max Jendruk</a></div>
+  {% endif %}
 </footer>

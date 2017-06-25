@@ -6,6 +6,7 @@ date_of_birth: 20. Oktober
 age: 17
 image: fazel.jpg
 order: 2
+audio_de: Fazel - De.mp3
 ---
 
 Um mich selbst in Deutschland zu verwirklichen, muss ich natürlich Deutsch lernen, denn meine Zukunft ist in Deutschland. In Deutschland kann ich ich selbst sein. Niemand weiß, wo ich in 10 Jahren bin oder was die Zukunft für mich bereit hält. Jetzt möchte ich gerne in Berlin als Krankenpfleger arbeiten. Ich will weiterhin meine Freunde treffen, Gitarre spielen und ins Fitnessstudio gehen. Ich wünsche mir eine richtige Familie hier. Wir wohnen dann zusammen, essen zusammen und leben zusammen. Ich will eine Frau heiraten, und ich will mit ihr Kinder haben. Und meine Kinder haben einen gestreiften Hasen.
@@ -18,6 +19,6 @@ Ich möchte gerne in einer schönen Wohnung wohnen. Ich wünsche mir Privatsphä
 
 Ich hätte gerne eine türkische Frau, weil ich die Sprache schön finde. Aber ich bin da flexibel. Hauptsache ich habe drei tolle Kinder. Ich will sehr viele Freunde aus aller Welt haben, und liebe Arbeitskollegen, mit denen ich auch eine Art Freundschaft habe. Wenn es mal einen Konflikt gibt, werde ich einen Kompromiss finden. Wenn das nicht klappt, versuche ich es wieder und wieder, bis es klappt. Wenn das alles klappt, dann ist mein Alltag einfach nur super. Ich arbeite dann fünf Tage die Woche, und abends verbringe ich Zeit mit meinen Lieben. Ich kann alle Unterschiede tolerieren, solange die Menschen nett zu mir sind. Ist man zu mir nett, bin ich es immer auch. Das kommt ja immer von zwei Seiten.
 
-## Tweets
+### Tweets
 
 {% twitter https://twitter.com/solidarigee_ev/status/862318545778212864 %}
